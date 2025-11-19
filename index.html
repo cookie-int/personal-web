@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #f8f3ce;
+        margin: 0;
+        font-family: "IM Fell DW Pica", serif;
+      }
+
+      .header {
+        background-color: #57564f;
+        color: #f8f3ce;
+        padding: 20px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: larger;
+      }
+
+      .nav-bar {
+        background-color: #7a7a73;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+      }
+
+      .nav-button {
+        background-color: #f8f3ce;
+        font-family: "IM Fell DW Pica", serif;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        font-size: medium;
+        color: #043915;
+        font-weight: bolder;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      .nav-button:hover {
+        background-color: #043915;
+        color: #fffd8f;
+      }
+
+      .main-img {
+        margin-right: 20px;
+        width: 300px;
+        height: auto;
+        border-radius: 30px;
+      }
+
+      .main-content {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        padding: 20px;
+      }
+
+      .main-text {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        font-size: 18px;
+        max-width: 60%;
+      }
+
+      .game-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+
+      @media (max-width: 750px) {
+        .main-text {
+          font-size: 14px;
+        }
+
+        .main-img {
+          width: 30vw;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>My Personal Web Page</h1>
+    </div>
+
+    <div class="nav-bar">
+      <a href="/my-personal-web/index.html">
+        <button class="nav-button">Home</button>
+      </a>
+      <a href="/my-personal-web/about.html">
+        <button class="nav-button">About Me</button>
+      </a>
+      <a href="/my-personal-web/contact.html">
+        <button class="nav-button">Contact</button>
+      </a>
+    </div>
+
+    <div class="main-content">
+      <div class="main-text">
+        <p>
+          Greetings, my name is Nisha and this is a simple website for my ICT
+          assignment.
+        </p>
+
+        <div class="game-row">
+          <p>I enjoy playing video games</p>
+          <a href="https://playvalorant.com/en-gb/">
+            <img
+              style="width: 30px"
+              src="https://media.licdn.com/dms/image/v2/D4E0BAQEcOdQbRT4Hhg/company-logo_200_200/company-logo_200_200/0/1737140249505?e=1765411200&v=beta&t=3GXdTo89U9Q3DL16Th6psXanJmH_POx-eeWNVKIAZQM"
+            />
+          </a>
+          <a href="https://www.ubisoft.com/en-gb">
+            <img
+              style="width: 70px"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Far_Cry_3_-_Logo.svg/1200px-Far_Cry_3_-_Logo.svg.png"
+            />
+          </a>
+          <a href="https://www.fallguys.com/en-US">
+            <img
+              style="width: 30px"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehydOw_ZOXRPd8PsIPVawjk9qiSJygY2vZQ&s"
+            />
+          </a>
+          <p>I also enjoy hanging out in a vc</p>
+          <a href="https://discord.com/">
+            <img
+              style="width: 30px"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvQSo64weeAlpUwYBIBKt76KoHjdxDSpEGg&s"
+            />
+          </a>
+          <p>with friends</p>
+          <p>as much as i do irl.</p>
+          <p>
+            I love reading, sketching, arabic calligraphy - but I'm not very
+            good with colours.
+          </p>
+          <p>
+            I started self learning coding in 2020 with the OG CS50 course - I
+            know
+          </p>
+          <a href="https://www.python.org/">
+            <img
+              style="width: 30px"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png"
+            />
+          </a>
+          <a href="https://isocpp.org/">
+            <img
+              style="width: 30px"
+              src="https://raw.githubusercontent.com/Benio101/cpp-logo/master/cpp_logo.png"
+            />
+          </a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+            <img
+              style="width: 30px"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+            />
+          </a>
+          <p>.</p>
+          <p>
+            Then I got into web development. I started with small projects,
+            uploaded them on GitHub
+          </p>
+          <a href="https://github.com/cookie-int">
+            <img
+              style="width: 30px"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png"
+            />
+          </a>
+          <p>and eventually ended up making a proper website for a brand.</p>
+          <a href="https://mkhfsd.pk/">
+            <img
+              style="width: 30px"
+              src="https://cdn.prod.website-files.com/6682f6381dbb4b9460a7a439/66865c2255b62ec438c7235d_square%20logo%20mkh.png"
+            />
+          </a>
+          <p>The niche I'm most interested in nowadays is CyberSecurity</p>
+          <a href="https://tryhackme.com/">
+            <img
+              style="width: 50px"
+              src="https://media.licdn.com/dms/image/v2/C5612AQEkU19tO6-ocA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1625537201870?e=2147483647&v=beta&t=pXrcOIo0MjX-ioTR4woKHIUCfJUU1vw93rjaXKD9GX0"
+            />
+          </a>
+          <p>rooms are just too fun!</p>
+        </div>
+      </div>
+      <div>
+        <img
+          class="main-img"
+          src="https://i.pinimg.com/736x/57/e5/03/57e5032fb05927891f22e6f1585c45ec.jpg"
+        />
+      </div>
+    </div>
+    <div style="margin-left: 20px">
+      <h2>My Bucket List</h2>
+      <table
+        border="1"
+        style="margin-top: 20px; border-collapse: collapse; width: 60%"
+      >
+        <tr>
+          <th>#</th>
+          <th>Goal</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Get a slay PC setup</td>
+          <td>Pending</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Live in the corporate girly era</td>
+          <td>Pending</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Travel somewhere epic</td>
+          <td>Pending</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>gradute in 2029?</td>
+          <td>in progress</td>
+        </tr>
+      </table>
+    </div>
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+      "
+    >
+      <footer>© 2025 My Personal Website</footer>
+    </div>
+  </body>
+</html>
